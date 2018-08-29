@@ -7,10 +7,10 @@ var server = http.createServer(function(request, response) {
 		   '<html>'+
 		   ' <head>'+
 		   ' <meta charset="utf-8" />'+
-		   ' <title>My Node.js page!</title>'+
+		   ' <title>PhantomWeb</title>'+
 		   ' </head>'+ 
 		   ' <body>'+
-		   ' <p>Here is a paragraph of <strong>HTML</strong>!</p>'+
+		   ' <p>You have arrived at PhantomWeb</p>'+
 		   ' </body>'+
 		   '</html>');
     response.end();
